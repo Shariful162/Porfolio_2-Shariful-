@@ -1,0 +1,151 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* -----------------header section styles----------- */
+.header{
+    background-color: #eee6e8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header-text{
+    width: 708px;
+}
+.header img{
+    width: 508px;
+}
+.heading-title{
+    font-size: 50px;
+}
+.heading-btn{
+    background-color: #e6708b;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 4px;
+}
+/* --------------main section styles--------------------- */
+.flower-section{
+    padding-top: 90px;
+    text-align: center;
+}
+.featured-title{
+    font-size: 40px;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.featured-flower img{
+    height: 300px;
+    width: 250px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 0px solid;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
+    box-shadow: 0px 0px 50px 0px;
+
+}
+#back-color1{
+    background-color: #e6708b;
+}
+#back-color2{
+    background-color: #8decee;
+}
+#back-color3{
+    background-color: #e8f7a4;
+}
+.flower-link{
+    color: black;
+}
+.featured-icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 200px;
+}
+.featured-icon{
+    height: 250px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px ;
+    background-color:rgb(239, 201, 244);
+}
+
+/* --------------sele section style------------- */
+.sale-section{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sale{
+    text-align: center;
+}
+.style-color{
+    color: #E55473;
+}
+.sale a{
+    text-decoration: none;
+
+}
+/* --------------------instagram section styles----------------- */
+.instagram{
+    margin-top: 200px;
+    margin-left: 190px;
+    margin-right: 190px;
+    text-align: center;
+}
+.instagrame-images{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.instagrame-images img {
+    height: 180px;
+    width: 130px;
+    padding: 40px;
+    margin-left: 50px;
+    border-top: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px ;
+    background-color:rgb(199, 124, 163);
+    
+}
+/* -------------the latest section start----------------------- */
+.latest-section{
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-left: 170px;
+    padding-top: 100px;
+    text-align: center;
+    background: url(image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+}
+.latest-input{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-bottom: 50px;
+}
+/* ---------------------footer section style------------------------- */
+
+.footer-section{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
